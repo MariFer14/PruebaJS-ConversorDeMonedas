@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Converso de Monedas</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <h1>Conversor de Monedas</h1>
 
     <section class="container">
         <label for="monto">Pesos CLP</label>
-        <input type="number" value="CLP" id="monto" min="0" step="0.01">
+        <input type="number" id="monto" min="0" step="0.01">
         <br>
         <label for="moneda">Monda a convertir</label>
         <select id="moneda">
@@ -25,7 +25,7 @@
         <p class="conversion"></p>
     </section>
 
-    <canvas id="grafico"></canvas>
+    <canvas id="grafica"></canvas>
 
 
 

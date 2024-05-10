@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Converso de Monedas</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icono-pagina.png">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <hr class="linea1">
     <h1>Conversor de Monedas</h1>
+    <hr class="linea2">
 
-    <section class="container">
-        <label for="monto">Pesos CLP</label>
-        <input type="number" id="monto" min="0" step="0.01">
-        <br>
-        <label for="moneda">Monda a convertir</label>
-        <select id="moneda">
-            <option value="USD">Dolar (USD)</option>
-            <option value="EUR">Euro (EUR)</option>
-            <option value="BTC">Bitcoin (BTC)</option>
-        </select>
-
-        <button id="btn-convertir">Convertir</button>
-        <p class="conversion"></p>
-    </section>
+    <div class="container">
+        <section class="conversor">
+            <label for="monto">Pesos CLP</label>
+            <input type="number" id="monto" min="0" step="0.01">
+            <label for="moneda">Monda a convertir</label>
+            <select id="moneda">
+                <option value="USD">Dolar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
+            </select>
+    
+            <button id="btn-convertir">Convertir</button>
+            <p class="conversion"></p>
+        </section>
+    </div>
+    
 
     <canvas id="grafica"></canvas>
 

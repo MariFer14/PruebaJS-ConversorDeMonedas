@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.linea1{
+    border: 1px solid #FA8072;
+    margin-top: 20px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linea2{
+    border: 1px solid #FA8072;
+    margin-bottom: 20px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(91, 144, 243);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.conversor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FA8072;
+    border-radius: 10px;
+    width: 300px;
+    padding: 40px 20px 50px 20px;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#monto{
+    width: 250px;
+    height: 30px;
+    padding-left: 7px;
+    border-radius: 7px;
+    border: 1px solid #5a5a5a;
+    margin-bottom: 20px;
+}
+
+#moneda{
+    text-align: center;
+    font-size: 18px;
+    width: 260px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#btn-convertir{
+    padding: 9px 95px;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: rgb(91, 144, 243);
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    transition: all .3s;
+}
+
+#btn-convertir:hover{
+    background-color: #ffffff;
+    color: rgb(91, 144, 243);
+    cursor: pointer;
+}
+
+.conversion{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#grafica{
+    padding: 0 70px 70px 70px;
+}
